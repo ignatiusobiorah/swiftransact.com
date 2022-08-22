@@ -15,15 +15,7 @@
 [swiftransact.com](https://www.swiftransact.com/) accepts contributions via Github pull requests.
 This document outlines some contributing gudelines, contact points, and other resources to make it easier to contribute to [swiftransact.com](https://www.swiftransact.com/)
 
-If you've run into a problem or have a suggestion, browse the open [issues][is]
-before opening a new one. We use the following [label system][la] to organize our issues.
-
-- ![][cr] for typos, broken links, and other quick fixes
-- ![][tr] for additions to the FAQ and Troubleshooting sections
-- ![][im] for revisions, rewrites, and larger improvements
-- ![][fe] for feedback on structure & content
-- ![][qu] for questions that can't be answered via documentation
-- ![][fi] for improvements and fixups related to the look and feel of the docs site
+If you've run into a problem or have a suggestion, browse the open [issues](https://github.com/swiftransact/swiftransact.com/issues) before opening a new one.
 
 ### Contribution Guidelines
 
