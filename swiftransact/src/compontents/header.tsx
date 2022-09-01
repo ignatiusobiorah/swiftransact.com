@@ -5,7 +5,9 @@ const Header: React.FC = () => {
   return (
     <div className="nav">
       <div className="logo">
-        <img src={logo} alt="swift-logo" />
+        <a href="/">
+          <img src={logo} alt="swift-logo" />
+        </a>
       </div>
 
       <div className="nav-list">
@@ -23,7 +25,13 @@ const Header: React.FC = () => {
             <a href="/">Rates</a>
           </li>
           <li>
-            <a href="/">Contact</a>
+            <a href="/">NFT</a>
+          </li>
+          <li>
+            <a href="/">Wallet</a>
+          </li>
+          <li>
+            <a href="/">For Techies</a>
           </li>
         </ul>
       </div>

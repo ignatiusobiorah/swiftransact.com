@@ -12,10 +12,14 @@ import Header from "./compontents/header";
 //Import Footer Component
 import Footer from "./compontents/footer";
 
+//Import Content Component
+import Content from "./compontents/content";
+
 function App() {
   return (
     <div className="App">
       <Header />
+      <Content />
       <Footer />
     </div>
   );
