@@ -49,7 +49,8 @@ const Footer: React.FC = () => {
         </div>
         <div className="canada">
           <h4>Canada</h4>
-          <p>lorem ipsum.. schazawan</p>
+          <p>Hwy 1 & 9 Whitewood</p>
+          <p>Saskatchewan</p>
         </div>
       </div>
 
@@ -76,9 +77,9 @@ const Footer: React.FC = () => {
         <form>
           <h4>Newsletter</h4>
           <p>Signup to get updated on our latest news</p>
-          <input type="text" />
+          <input type="text" placeholder="Email" />
+          <button className="footerBtn">SUBSCRIBE</button>
         </form>
-        <button className="footerBtn">subscribe</button>
         <div className="socialIcons">
           <i className="fa-brands fa-instagram"></i>
           <i className="fa-brands fa-twitter"></i>

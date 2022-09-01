@@ -20,7 +20,6 @@ body {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      border: 2px solid blue;
 
       .nav-list {
         ul {
@@ -37,7 +36,7 @@ body {
           font-weight: 500;
           text-transform: uppercase;
           &:hover {
-            color: #dd8941;
+            color: orange;
           }
         }
       }
@@ -52,11 +51,14 @@ body {
         font-weight: 600;
         text-transform: uppercase;
         cursor: pointer;
+        &:hover {
+          background: orange;
+          transition: all 0.5s ease;
+        }
       }
     }
 
     .footer {
-      border: 2px solid green;
       display: flex;
       padding: 2rem 2rem 0 2rem;
       height: 70vh;
@@ -78,6 +80,10 @@ body {
         a {
           text-decoration: none;
           color: #101010;
+
+          &:hover {
+            color: #ffffff;
+          }
         }
       }
 
@@ -113,6 +119,36 @@ body {
         margin-top: 26vh;
         padding: 0 0 0 1rem;
 
+        form {
+          input {
+            outline: none;
+            border: none;
+            padding: 0.5rem;
+            background: #101010;
+            color: #ffffff;
+            border-radius: 50px;
+            width: 14rem;
+            font-weight: 500;
+          }
+
+          .footerBtn {
+            display: flex;
+            @extend input;
+            color: #dd8941;
+            background: #ffffff;
+            width: 15rem;
+            margin-top: 0.5rem;
+            justify-content: center;
+            cursor: pointer;
+
+            &:hover {
+              background: #dd8941;
+              color: #ffffff;
+              transition: all 0.5s ease;
+            }
+          }
+        }
+
         .socialIcons {
           padding: 1rem 0;
           gap: 1rem;
@@ -125,6 +161,12 @@ body {
             border-radius: 50%;
             align-items: center;
             text-align: center;
+            cursor: pointer;
+
+            &:hover {
+              background: #ffffff;
+              color: #dd8941;
+            }
           }
         }
       }
