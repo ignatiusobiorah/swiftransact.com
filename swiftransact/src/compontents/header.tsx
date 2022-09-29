@@ -1,5 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../img/swift-logo2.png";
+
+//   interface props {
+//     Link: React.ElementType;
+// };
 
 const Header: React.FC = () => {
   return (
@@ -13,31 +18,25 @@ const Header: React.FC = () => {
       <div className="nav-list">
         <ul>
           <li>
-            <a href="/">About</a>
+            <a>Trade</a>
           </li>
           <li>
-            <a href="/">Buy</a>
-          </li>
-          <li>
-            <a href="/">Sell</a>
-          </li>
-          <li>
-            <a href="/">Rates</a>
-          </li>
-          <li>
-            <a href="/">NFT</a>
-          </li>
-          <li>
-            <a href="/">Wallet</a>
+            <Link to="/wallet">Wallet</Link>
           </li>
           <li>
             <a href="/">For Techies</a>
+          </li>
+          <li>
+            <a>Company</a>
+          </li>
+          <li>
+            <a>Products</a>
           </li>
         </ul>
       </div>
 
       <div className="navBtnContainer">
-        <button className="navBtn">Connect</button>
+        <button className="navBtn">Create Account</button>
       </div>
     </div>
   );
