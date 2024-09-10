@@ -1,9 +1,5 @@
 # Welcome to swiftransact.com 👋
 
-<a href="https://app.slack.com/client/T03UHJJPQKU/C03U31T7HCP">
-<img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
-</a>
-
 ![Contributors](https://img.shields.io/github/contributors/swiftransact/swiftransact.com)
 ![Forks](https://img.shields.io/github/forks/swiftransact/swiftransact.com)
 ![Stars](https://img.shields.io/github/stars/swiftransact/swiftransact.com)
