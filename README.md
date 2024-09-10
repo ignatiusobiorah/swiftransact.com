@@ -10,7 +10,7 @@
 ![Licence](https://img.shields.io/github/license/swiftransact/swiftransact.com)
 ![Issues](https://img.shields.io/github/issues/swiftransact/swiftransact.com)
 
-## This is a repository for Swiftransact crypto exchange site.
+## This is a repository for Swiftransact web app.
 
 [swiftransact.com](https://www.swiftransact.com/) accepts contributions via Github pull requests.
 This document outlines some contributing gudelines, contact points, and other resources to make it easier to contribute to [swiftransact.com](https://www.swiftransact.com/)
